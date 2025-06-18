@@ -2,9 +2,65 @@ h3{
     color:green;
     font-style: italic;
 }
-p{
+ p{
     color: deepskyblue;
-}
+} 
 h4{
     color: chartreuse !important;
 }
+.t_uppercase{
+    text-transform: uppercase;
+    color: blueviolet;
+}
+.t_lowercase{
+    text-transform: lowercase;
+    color: blueviolet;
+    text-decoration: dotted;
+}
+.t_capitilize{
+    text-transform: capitalize;
+    color: blueviolet;
+}
+.t_center{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: line-through;
+}
+.t_right{
+    text-align: right;
+    color: blueviolet;
+    text-decoration: overline;
+}
+.f_size{
+    font-size: 80px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+.t_line{
+    text-decoration: overline underline line-through;
+}
+.t_indent{
+    text-indent: 150px;
+}
+.t_height{
+    line-height: 50px;
+}
+.w_spacing{
+    word-spacing: 50px;
+}
+.l_spacing{
+    letter-spacing: 20px;
+}
+.t_shadow{
+    font-size: 80px;
+    text-align: center;
+    color: aqua;
+    text-shadow: 4px 5px 8px red;
+}
+    .t2_shadow{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(10, 231, 14);
+    text-shadow: 4px 5px 8px rgba(242, 8, 187, 0.957);
+    }
+/* 1st value is horizontal second is vertical third is blur and last is color */
