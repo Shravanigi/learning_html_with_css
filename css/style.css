@@ -64,3 +64,44 @@ h4{
     text-shadow: 4px 5px 8px rgba(242, 8, 187, 0.957);
     }
 /* 1st value is horizontal second is vertical third is blur and last is color */
+.heading1{
+    color: chocolate;
+    font-size: 100px;
+}
+#heading1{
+    color: crimson;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+*{
+    color: cyan;
+    text-decoration:overline;
+}
+p,h3,h6{
+    color: chartreuse;
+}
+.font_family1{
+font-family: 'Courier New', Courier, monospace;
+}
+.font_family2{
+font-family:cursive;
+}
+.font_family3{
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.text_shadow{
+    text-shadow: 4px 5px 6px red;
+    font-size: 250px;
+    text-align: center;
+}
+.drop_shadow{
+    filter: drop-shadow(2px 3px 6px aqua);
+    height: 300px;
+    width: 300px;
+}
+.box_shadow{
+    box-shadow: 8px 8px 8px chartreuse;
+    height: 300px;
+    width: 300px;
+}
