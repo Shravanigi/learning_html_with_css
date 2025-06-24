@@ -1,4 +1,4 @@
-/* h3{
+ /* h3{
     color:green;
     font-style: italic;
 }
@@ -63,8 +63,8 @@ h4{
     color: rgb(10, 231, 14);
     text-shadow: 4px 5px 8px rgba(242, 8, 187, 0.957);
     }
-/* 1st value is horizontal second is vertical third is blur and last is color */
-/* .heading1{
+1st value is horizontal second is vertical third is blur and last is color 
+.heading1{
     color: chocolate;
     font-size: 100px;
 }
@@ -104,7 +104,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     box-shadow: 8px 8px 8px chartreuse;
     height: 300px;
     width: 300px;
-} */ 
+} 
 .box_model{
     padding: 40px;
     border: 2px solid red;
@@ -116,7 +116,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     border: 3px solid blueviolet;
 }
 .border_prop{
-    /* solid,dashed,double,dotted,inset,outset */
+     solid,dashed,double,dotted,inset,outset 
     border: 10px solid red;
     margin: 100px;
     padding: 10px;
@@ -129,7 +129,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     border-right-color: green;
     border-bottom-color: blue;
     border-left-color: green;
-}
+} 
 body{
     background-color: aqua;
     background-image: url("/images/nature.jpg");
@@ -146,4 +146,42 @@ text-align: center;
     padding: 20px;
     border: 3px solid white;
     background-color: #f5deb366;
+} */
+
+.box{
+    width: 200px;
+    height: 100px;
+    border: 2px solid skyblue;
+    background-color: chartreuse;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    color: black;
+}  
+.box1{
+    position: static;
+}
+.box2{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    margin: 100px;
+
+}
+.box3{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+
+}
+.box4{
+    position: sticky;
+    top: 10px;
+
+}
+.box5{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
 }
