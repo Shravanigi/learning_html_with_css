@@ -22,7 +22,7 @@
     top: 150px;
 } */
 
-.items{
+/* .items{
     background-color: blueviolet;
     width: 200px;
     height: 150px;
@@ -37,4 +37,102 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+} */
+/* .hover_effect:hover{
+    color: red;
+    background-color: cadetblue;
+    font-size: 80px;
+    text-shadow: 4px 3px 8px aqua;
 }
+button{
+    background-color: green;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:active{
+    background-color: blueviolet;
+    font-size: 30px;
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+a:visited{
+    color: green;
+}
+ input:focus{
+    background-color: yellow;
+} 
+ul{
+    width: 300px;
+    padding: 10px;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+li:nth-child(odd){
+    background-color: aquamarine;
+}
+li:nth-child(even){
+    background-color: lightpink;
+}
+li:first-child{
+    background-color: black;
+    color: white;
+}
+li:last-child{
+    background-color: black;
+    color: white;
+} */
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+    flex-direction: row;
+ }
+ .box{
+    background-color: darkorange;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 3s ease;
+ }
+ .box1:hover{
+       transform: translate(125px,125px);
+ }
+ .box2:hover{
+       transform: translatex(125px);
+ }
+ .box3:hover{
+       transform: translatey(125px);
+ }
+ .box4:hover{
+    transform: rotate(360deg);
+    background-color: blueviolet;
+    color: aqua;
+ }
+ .box5:hover{
+    transform: skew(30deg);
+ }
+ .box6:hover{
+    transform: scale(2);
+ }
+ .box7:hover{
+    transform: rotate(40deg) scale(2) translateY(50px);
+ }

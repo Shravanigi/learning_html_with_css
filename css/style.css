@@ -129,7 +129,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     border-right-color: green;
     border-bottom-color: blue;
     border-left-color: green;
-} 
+} */
 body{
     background-color: aqua;
     background-image: url("/images/nature.jpg");
@@ -146,7 +146,7 @@ text-align: center;
     padding: 20px;
     border: 3px solid white;
     background-color: #f5deb366;
-} */
+} 
 
 .box{
     width: 200px;
