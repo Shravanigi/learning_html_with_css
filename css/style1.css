@@ -153,9 +153,9 @@ li:last-child{
   }
   .conic{
     height: 500px;
-    background: conic-radient(from 90deg,black,green,blue,blueviolet);
+    background: conic-gradient(from 90deg,black,green,blue,blueviolet);
 
-  } */
+  }  */
    /* div{
     width: 400px;
     height: 400px;
@@ -175,7 +175,7 @@ li:last-child{
     75%{background-color: chartreuse;left:0px; top: 300px;}
     100%{background-color: yellow;left:0px; top: 0px;}
    } */
-    #txt{
+    /* #txt{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -232,4 +232,112 @@ li:last-child{
         0%,60%,100%{
             transform: rotatex(-85deg);
         }
+    } */
+     /* .box{
+        width: 100%;
+        height: auto;
+        background-color: green;
+        color: white;
+        text-align: center;
+        line-height: 200px;
+        font-size: 50px;
+        margin: 20px auto;
+        border: 4px solid rgb(252, 2, 2);
+        border-radius: 30px;
     }
+    .info{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        background-color: rgb(185, 236, 236);
+        color: black;
+        font-size: 20px;
+        border-left: 6px solid gray;
+        margin-bottom: 20px;
+    }
+    .responsive_image{
+        width: 100%;
+        max-width: 800px;
+        border: 4px solid red;
+        padding: 30px;
+        margin: auto;
+    }
+     mobile view 480px or less 
+    @media (max-width:480px){
+        .box{
+            background-color: rgb(111, 111, 161);
+            color: black;
+            font-size: 25px;
+            width: 80%;
+        }
+        .info{
+           background-color: rgb(237, 157, 9);
+           color: white;
+        }
+        .responsive_image{
+            display: none;
+        }
+    }
+     mobile view 480px or less 
+    @media(max-width:770px){
+        .box{
+            background-color: rgb(96, 93, 16);
+            color: white;
+            font-size: 15px;
+            width: 80%;
+        }
+        .info{
+           background-color: rgb(65, 245, 10);
+           color: black;
+        }
+    }
+    @media(min-width:800px) and (max-width:900px){
+        .box{
+            background-color: rgb(8, 127, 238);
+            color: black;
+            font-size: 25px;
+            width: 100%;
+        }
+        .info{
+           background-color:rgb(229, 255, 0);
+           font-size: 50px;
+           width: 100px;
+           color: rgb(244, 5, 148);
+        }
+        
+    } */
+     /* .container{
+            position: relative;
+            margin: 50px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            position: absolute;
+            border: 3px solid white;
+        }
+        .red{
+            background-color: red;
+            left: 40px;
+            z-index: 3;
+            &:hover{
+                z-index: 6;
+            }
+        }
+        .green{
+            background-color: green;
+            left: 80px;
+            z-index: 5;
+            &:hover{
+                z-index: 8;
+            }
+        }
+        .blue{
+            background-color: blue;
+            left: 120px;
+            z-index: 4;
+            &:hover{
+                z-index: 8;
+            }
+        } */
